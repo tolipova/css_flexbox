@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .flex_container{
+            display: flex;
+            padding: 20px;
+            background-color: blue;
+            border-radius: 10px;
+        }
+        .flex_item{
+            padding: 60px 15px;
+            background-color: bisque;
+            font-weight: bold;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        /* .order-minus-5{
+            order: -5;
+        }
+        .order-1{
+            order: 1;
+        }
+        .order-10{
+            order: 10;
+        } */
+        /* .flex-grow{
+            flex-grow: 2;
+        } */
+        .flex-shrink{
+            flex-shrink: 2;
+        }
+        .flex-shrink-0{
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex_container">
+        <div class="flex_item order-10 flex-shrink-0">Flex item 1</div>
+        <div class="flex_item order-1 flex-grow">Flex item 2</div>
+        <div class="flex_item order-minus-5">Flex item -5</div>
+        <div class="flex_item order-minus-5">Flex item 6</div>
+        <div class="flex_item order-minus-5">Flex item 7</div>
+        <div class="flex_item flex-shrink">Flex item 4</div>
+
+    </div>
+</body>
+</html>

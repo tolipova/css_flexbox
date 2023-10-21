@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .flex_container{
+            display: flex;
+            padding: 20px;
+            background-color: blue;
+            height: 700px;
+            border-radius: 10px;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            /* flex-flow: row nowrap; */
+            /* justify-content: space-around; */
+            /* align-items: flex-end; */
+            align-content: center;
+        }
+        .flex_item{
+            padding: 60px 15px;
+            background-color: bisque;
+            font-weight: bold;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+    <!--flex-direction row tugri eniga row-reverse eniga teskari column pastga buyiga column-reverse buyiga teskari-->
+    <!--flex-wrap nowrap 1qatora wrap birnecha qatorda wrap-reverse teskari bir necha qatorda-->
+    <!--Flex-direction va flex-wrap uchun 1ta xossa flex-flow -->
+    <!--justify-content elemntlani joylashuvi flex-start elemtlani cont boshida  flex-end oxirida flex-center o'rtada space-between teng taqsimlanadi space-around teng space-evenly cont buyicha teng-->
+</head>
+<body>
+    <div class="flex_container">
+        <div class="flex_item">Flex item 1</div>
+        <div class="flex_item">Flex item 2</div>
+        <div class="flex_item">Flex item 3</div>
+        <div class="flex_item">Flex item 4</div>
+        <div class="flex_item">Flex item 5</div>
+        <div class="flex_item">Flex item 6</div>
+        <div class="flex_item">Flex item 7</div>
+        <div class="flex_item">Flex item 8</div>
+        <div class="flex_item">Flex item 9</div>
+        
+
+    </div>
+</body>
+</html>
